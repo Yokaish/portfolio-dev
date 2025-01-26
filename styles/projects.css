@@ -50,6 +50,8 @@
 
 @media (max-width: 728px) {
     #projects {
+        
+        padding: 60px 30px;
 
         & .figures-container {
             grid-template-columns: repeat(1, 330px);
