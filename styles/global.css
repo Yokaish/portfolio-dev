@@ -60,3 +60,8 @@ h3 {
     font: var(--title-sm);
     color: var(--gray-600);
 }
+
+a {
+    text-decoration: none;
+    color: var(--gray-500);
+}

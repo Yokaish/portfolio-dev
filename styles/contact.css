@@ -1,0 +1,167 @@
+#contact {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 128px 120px 200px 120px;
+
+    & header {
+        & .subtitle {
+            color: var(--purple);
+        }
+    }
+
+    & .links-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+
+
+        & .social-icon {
+            background-repeat: no-repeat;
+            height: 28px;
+            width: 28px;
+        }
+
+        & a {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 400px;
+            background-color: var(--gray-300);
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid transparent;
+            transition: border 0.4s ease;
+            
+
+            & div {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+            }
+
+            & .arrow {
+                background-image: url(../assets/icons/ArrowUpRight.svg);
+                background-repeat: no-repeat;
+                height: 20px;
+                width: 20px;
+            }
+
+            &:hover {
+                border-color: var(--blue);
+                & .arrow {
+                    background-image: url(../assets/icons/ArrowUpRightBlue.svg);
+                }
+
+                & div {
+                    & span {
+                        color: var(--blue);
+                    }
+                }
+            }
+
+        }
+
+        & a:nth-child(1) {
+            & div {
+
+                & .social-icon {
+                    background-image: url(../assets/icons/LinkedinLogo.svg);
+
+                }
+
+            }
+
+            &:hover {
+                & div {
+                    &.social-icon {
+                        background-image: url(../assets/icons/LinkedinLogoBlue.svg);
+                    }
+
+                }
+            }    
+            
+        }
+
+        & a:nth-child(2) {
+            & div {
+
+                & .social-icon {
+                    background-image: url(../assets/icons/InstagramLogo.svg);
+
+                }
+
+            }
+
+            &:hover {
+                & div {
+                    &.social-icon {
+                        background-image: url(../assets/icons/InstagramLogoBlue.svg);
+                    }
+                }
+            }    
+            
+        }
+
+        & a:nth-child(3) {
+            & div {
+
+                & .social-icon {
+                    background-image: url(../assets/icons/GitHubLogo.svg);
+
+                }
+
+            }
+
+            &:hover {
+                & div {
+                    &.social-icon {
+                        background-image: url(../assets/icons/GithubLogoBlue.svg);
+                    }
+                }
+            }    
+            
+        }
+
+        & a:nth-child(4) {
+            & div {
+
+                & .social-icon {
+                    background-image: url(../assets/icons/EmailLogo.svg);
+
+                }
+
+            }
+
+            &:hover {
+                & div {
+                    &.social-icon {
+                        background-image: url(../assets/icons/EmailLogoBlue.svg);
+                    }
+                }
+            }    
+            
+        }
+    }
+
+}
+
+@media (max-width: 728px) {
+    #contact {
+        padding: 60px 30px;
+
+        & .links-container {
+            & a {
+                width: 316px;
+            }
+        }
+    }
+}
+
+
+
