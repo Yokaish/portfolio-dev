@@ -95,14 +95,21 @@
 @media (max-width: 728px) {
     .info {
 
+
+
         padding: 60px 10px;
 
         & header {
             
-            & div:nth-child(2) {
-                
-                
+            & h1 {
+                font: var(--title-md);
             }
+            
         }
+
+        & .technologies {
+            justify-content: center;
+        }
+
     }
 }
