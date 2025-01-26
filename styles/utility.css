@@ -1,0 +1,23 @@
+.subtitle {
+    font: var(--subtitle);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 56px;
+
+    & .subtitle {
+        color: var(--red);
+
+    }
+}
+

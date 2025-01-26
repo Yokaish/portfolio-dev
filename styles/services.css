@@ -1,0 +1,45 @@
+#services {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--gray-100);
+    padding: 88px 120px 120px 120px;
+
+    & .services-cards-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+
+        & figure {
+            border: 2px solid var(--gray-300);
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+            width: 280px;
+
+
+            & div {
+                display: grid;
+                gap: 8px;
+
+                & figcaption {
+                    font: var(--text-sm);
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 728px) {
+    #services {
+        padding: 60px 10px;
+    }
+}
