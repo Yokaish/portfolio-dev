@@ -35,7 +35,7 @@
             background-color: var(--gray-300);
             padding: 20px;
             border-radius: 8px;
-            border: 2px solid transparent;
+            border: 1.5px solid transparent;
             transition: border 0.4s ease;
             
 

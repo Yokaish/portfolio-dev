@@ -18,7 +18,7 @@
             border-radius: 8px;
             gap: 20px;
             cursor: pointer;
-            border: 2px solid transparent;
+            border: 1.5px solid transparent;
             transition: border 0.4s ease;
 
             & img {
@@ -36,7 +36,7 @@
             }
 
             &:hover {
-                border-color: var(--gray-600);
+                border-color: var(--gray-400);
             }
 
             & figcaption {
